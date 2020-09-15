@@ -11,7 +11,7 @@ public class Ternario {
 		System.out.println("Masculino = 1 | Feminino = 2 | Outros = 3");
 		genero = ler.nextInt();
 		
-		System.out.println(  (genero == 1)? "\nSeu genero é Masculino": (genero ==2)?"\nSeu genero é Feminino":"\nSeu genero é Outro");
+		System.out.println(  (genero == 1)? "\nSeu genero é Masculino": (genero ==2)?"\nSeu genero é Feminino":(genero ==3)?"\nSeu genero é Outro":"\nNúmero Inválido");
 		
 		
 		ler.close();
